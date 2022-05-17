@@ -5166,6 +5166,9 @@ article:before{
 	margin:-15px 0 0 -2px;
 	z-index: 2;
 }
+.details{
+	height: 50px;
+}
 .content-nav:after  {
 	content:'';
 	position:absolute;
