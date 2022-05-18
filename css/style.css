@@ -977,7 +977,7 @@ section.paralax-section .bg {
 	width:100%;
 	position:relative;
 }
-.page-title h3  {
+.page-title h1  {
 	float:left;
 	width:100%;
 	font-weight:800;
@@ -988,7 +988,7 @@ section.paralax-section .bg {
 	padding-bottom:10px;
 	position: relative;
 }
-.page-title h3:before {
+.page-title h1:before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -997,16 +997,7 @@ section.paralax-section .bg {
 	top: -20px;
 	z-index: 2;
 }
-.page-title h3:after {
-	content: '';
-	position: absolute;
-	left: 40px;
-	height: 1px;
-	width: 80px;
-	top: -17px;
-	z-index: 1;
-	background: rgba(255,255,255,0.5);
-}
+
 .page-title p {
 	color:rgba(255,255,255,0.9);
 	max-width:450px;
@@ -1853,7 +1844,7 @@ footer.main-footer{
 	transform: translateY(-50%);
 	z-index: 10;
 }
-.hero-wrap-title_item h2 {
+.hero-wrap-title_item p {
 	font-size:45px;
 	text-align: left;
 	text-transform: uppercase;
@@ -1862,7 +1853,7 @@ footer.main-footer{
 	line-height: 60px;
 	padding-top: 10px;
 }
-.hero-wrap-title_item h4 {
+.hero-wrap-title_item .like_h4 {
 	font-size:11px;
 	text-align: left;
 	float: left;
@@ -2157,10 +2148,18 @@ footer.main-footer{
 .det-box .box-item img {
 	margin-bottom:0;
 }
+.det-box h2 {
+	float:left;
+	text-align:left;
+	font-size:24px;
+	padding-bottom:8px;
+	font-weight:700;
+	width:100%;
+}
 .det-box h3 {
 	float:left;
 	text-align:left;
-	font-size:16px;
+	font-size:18px;
 	padding-bottom:8px;
 	font-weight:700;
 	width:100%;
@@ -2451,10 +2450,10 @@ footer.main-footer{
 	text-align: center;
 	position: relative;
 }
-.inline-facts h6  {
+.inline-facts p  {
     position: relative;
     margin-top: 6px;
-    color: rgba(255, 255, 255, 0.51);
+    color: #F7B90F;
     font-size: 10px;
     font-weight: 500;
     letter-spacing: 2px;
@@ -2463,7 +2462,7 @@ footer.main-footer{
 	display: inline-block;
 	background: rgba(0,0,0,0.5);
 }
-.bold-facts .inline-facts h6 {
+.bold-facts .inline-facts p {
 	background: none;
 	padding: 0;
 	margin-top: 4px;
@@ -2788,7 +2787,7 @@ footer.main-footer{
 .team-content {
 	padding: 25px 30px 15px;
 }
-.team-content  h4 {
+.team-content  h3 {
 	text-align: left;
 	font-size: 16px;
 	color: #000;
@@ -3165,13 +3164,14 @@ footer.main-footer{
 .half-carousel-content h3 a {
 	color: #fff;
 }
-.half-carousel-title-item h5 , .half-carousel-content p {
+.half-carousel-content p {
 	color:#fff;
 	text-align: left;
 }
-.half-carousel-title-item h5 {
+.half-carousel-title-item p {
 	font-size: 11px;
 	font-weight: 500;
+	color:#fff;
 }
 .half-carousel-conatiner {
 	float: right;
@@ -3372,14 +3372,14 @@ footer.main-footer{
 	height: 56px;
 	line-height: 56px;
 }
-.content-inner .cf-inner .inner h2  {
+.content-inner .cf-inner .inner h3  {
 	position:relative;
 	font-size:18px;
 	font-weight:600;
 	padding-bottom:6px;
 	text-align: left;
 }
-.content-inner .cf-inner .inner h2:after {
+.content-inner .cf-inner .inner h3:after {
 	content:'';
 	position:absolute;
 	top:-20px;
@@ -3399,16 +3399,10 @@ footer.main-footer{
 .main-section_text-block {
 	margin-bottom: 40px;
 }
-.main-section_text-block h2 {
+.main-section_text-block h1 {
 	text-align: left;
 	font-weight: 600;
 	font-size: 20px;
-}
-.main-section_text-block h4 {
-	text-align: left;
-	margin-bottom: 10px;
-	font-weight: 600;
-	color: #666;
 }
 .hero-counter_wrap {
 	position: absolute;
@@ -3686,7 +3680,7 @@ footer.main-footer{
 	border-left: 1px solid #eee;
 	border-bottom: 1px solid #eee;
 }
-.card-item h4 {
+.card-item h3 {
 	text-align: left;
 	font-weight: 600;
 	font-size: 15px;
@@ -3872,14 +3866,14 @@ footer.main-footer{
     transition: all 400ms linear;
 	color: #ccc;
 }
-.testimonilas-text  h3 {
-	font-weight: 600;
-	text-align: left;
-	margin-left: 80px;
-	font-size:14px;
-	padding-bottom:8px;  
+.testimonilas-text  .like_h3 {
+    font-weight: 600;
+    text-align: left;
+    margin-left: 80px;
+    font-size: 14px;
+    padding-bottom: 8px;
 }
-.testimonilas-text  h3 span {
+.testimonilas-text  .like_h3 span {
 	color: #999;
 	display: block;
 	font-weight: 500;
@@ -3909,10 +3903,9 @@ footer.main-footer{
     background: #f9f9f9;
 }
 .testimonilas-text p{
-    color: #878C9F;
+	color: #292929;
 	font-size: 11px;
 	text-align: justify;
-    font-style: italic;
 	line-height: 24px;
     font-weight: 500;
 }
@@ -6506,7 +6499,7 @@ h4.cart-title span {
     margin: 0 0 10px;
     padding-top: 20px;
 }
-.main-section_text-block h2 , .content-inner {
+.main-section_text-block h1 , .content-inner {
 	margin-bottom: 10px;
 }
 .nb_btn , .about-img , .hero-search , .order-wrap.ord-wrp_mar {
@@ -6660,7 +6653,7 @@ h4.cart-title span {
 .about-img-title {
     top: 20px;
 }
-.hero-wrap-title_item h2 {
+.hero-wrap-title_item p {
     font-size:35px;
 	line-height: 45px;
 }
@@ -6814,7 +6807,7 @@ h4.cart-title span {
 .det-list ul {
     padding: 0 10px;
 }
-.page-title h3 {
+.page-title h1 {
     font-size: 28px;
 }
 .shop-header-title .single_post-opt {
