@@ -2030,10 +2030,11 @@ footer.main-footer{
 	width:100%;
 	text-align:left;
 	font-size:24px;
-	font-weight:600;
+	font-weight:700;
 	color:#292929;
 	padding-bottom:20px;
 	position:relative;
+	text-transform: uppercase;
 }
 .con-heading:before {
 	content:'';
@@ -2160,7 +2161,7 @@ footer.main-footer{
 	float:left;
 	text-align:left;
 	font-size:18px;
-	padding-bottom:8px;
+	padding-bottom:15px;
 	font-weight:700;
 	width:100%;
 }
@@ -6802,7 +6803,7 @@ h4.cart-title span {
     top: 0;
 }
 .det-list {
-    padding: 45px 10px 40px;
+    padding: 45px 10px 45px;
 }
 .det-list ul {
     padding: 0 10px;
