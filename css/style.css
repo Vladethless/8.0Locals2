@@ -49,10 +49,10 @@ body{
 /*--------------Typography--------------------------------------*/
 p {
 	text-align:left;
-	font-size:11px;
+	font-size:14px;
 	line-height:24px;
 	padding-bottom:10px;
-	font-weight: 500;
+	font-weight: 400;
  	color: #5e646a;
 }
 blockquote {
@@ -331,7 +331,7 @@ blockquote p {
 	margin: 0;
 }
 .top-bar-header-contact li i {
-	margin-right:15px;
+	margin-right:10px;
 	font-weight: bold
 }
 .top-bar-header-contact li a {
@@ -1854,13 +1854,15 @@ footer.main-footer{
 	padding-top: 10px;
 }
 .hero-wrap-title_item .like_h4 {
-	font-size:11px;
+	font-size:16px;
 	text-align: left;
 	float: left;
 	max-width: 550px;
 	padding-top: 10px;
 	color: #fff;
 	font-weight:500;
+	line-height: 25px;
+	text-transform:none;
 }
 .hero-wrap-title_item h3 {
 	text-transform: uppercase;
@@ -2021,6 +2023,15 @@ footer.main-footer{
 	top:3px;
 	left:0;
 	font-weight: bold;
+}
+.det-box-ietm .linked:before {
+    font-family: Font Awesome\ 5 Pro;
+	content:'\f0da';
+	position: relative;
+	padding-right: 10px;
+	width: 10px;
+	font-weight: bold;
+	color: rgb(247, 185, 15);
 }
 .det-list li:last-child {
 	margin-bottom:0;
@@ -3905,7 +3916,7 @@ footer.main-footer{
 }
 .testimonilas-text p{
 	color: #292929;
-	font-size: 11px;
+	font-size: 13px;
 	text-align: justify;
 	line-height: 24px;
     font-weight: 500;
